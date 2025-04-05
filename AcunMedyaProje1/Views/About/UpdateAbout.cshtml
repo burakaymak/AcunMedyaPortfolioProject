@@ -1,0 +1,62 @@
+﻿@model AcunMedyaProje1.Models.TBL_About
+@{
+    ViewBag.Title = "UpdateAbout";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<h2>Hakkımda Güncelleme Sayfası</h2>
+
+<form method="post">
+    @Html.HiddenFor(x => x.AboutID)
+    <label>Pozizyon(Meslek) : </label>
+    @Html.TextBoxFor(x => x.Title)
+    <br />
+    <br />
+    <label>Image URL : </label>
+    @Html.TextBoxFor(x => x.ImageURL)
+    <br />
+    <br />
+    <label>Yaş : </label>
+    @Html.TextBoxFor(x => x.Age)
+    <br />
+    <br />
+    <label>Doğum Günü : </label>
+    @Html.TextBoxFor(x => x.BirthDay)
+    <br />
+    <br />
+    <label>Telefon Numarası : </label>
+    @Html.TextBoxFor(x => x.Phone)
+    <br />
+    <br />
+    <label>Email : </label>
+    @Html.TextBoxFor(x => x.Email)
+    <br />
+    <br />
+    <label>Web Sitesi : </label>
+    @Html.TextBoxFor(x => x.WebSite)
+    <br />
+    <br />
+    <label>Şehir : </label>
+    @Html.TextBoxFor(x => x.City)
+    <br />
+    <br />
+    <label>Freelance : </label>
+    @Html.TextBoxFor(x => x.Freelance)
+    <br />
+    <br />
+    <label>Açıklama : </label>
+    @Html.TextBoxFor(x => x.Description1)
+    <br />
+    <br />
+    <label>Açıklama 2 : </label>
+    @Html.TextBoxFor(x => x.Description2)
+    <br />
+    <br />
+    <button class="btn btn-primary">Güncelle</button>
+
+
+
+</form>
+
+
+

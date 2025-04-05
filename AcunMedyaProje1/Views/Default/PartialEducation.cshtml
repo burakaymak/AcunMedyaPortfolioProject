@@ -1,0 +1,57 @@
+﻿@model List<AcunMedyaProje1.Models.TBL_Education>
+
+
+<div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+
+
+
+    <h3 class="resume-title">Education</h3>
+    <div class="resume-item">
+        <h4>@Model[0].Name</h4>
+        <h5>
+            @(Model[0].StartedYear.HasValue ? Model[0].StartedYear.Value.ToString("dd/MM/yyyy") : "")
+            -
+            @(Model[0].EndYear.HasValue ? Model[0].EndYear.Value.ToString("dd/MM/yyyy") : "Present")
+
+        </h5>
+        <p><em>@Model[0].Section</em></p>
+        <p>@Model[0].Description</p>
+    </div><!-- Edn Resume Item -->
+
+    <h3 class="resume-title">Volunter Experiences</h3>
+    <div class="resume-item pb-0">
+        <h4> Event Coordination Leader</h4>
+        <p><em>Karaelmas International Science & Engineering Symposium (KISES 2024)</em></p>
+        <ul>
+            <li>
+                I am taking part in the coordination leadership and external relations section of this international symposium, which
+                will be organized with the theme of 'Scienfistic modeling and applications of genetic intelligence.'
+            </li>
+        </ul>
+    </div>
+
+    <div class="resume-item pb-0">
+        <h4> Event Coordination Leader</h4>
+        <p><em>Huawei R & D Meeting </em></p>
+        <ul>
+            <li>
+                In this event, with the participation of over 1200 students, artificial intelligence, cyber security, web development,
+                mobile development,Cloud Computing and of course HSD werw discussed for 10 hours.
+            </li>
+        </ul>
+    </div>
+
+    <div class="resume-item pb-0">
+        <h4> Event Coordination Leader</h4>
+        <p><em>25 Speak for the Future Events</em></p>
+        <ul>
+            <li>
+                In this event, which we have organized 25 times, 2-hour speeches were made on professional foreign
+                languages. In total, more than 1500 people benefited from these events.
+            </li>
+        </ul>
+    </div>
+    <!-- Edn Resume Item -->
+
+</div>

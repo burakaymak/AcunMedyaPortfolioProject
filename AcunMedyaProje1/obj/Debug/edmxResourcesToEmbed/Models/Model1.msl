@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DBAcunmedyaAkademiModelStoreContainer" CdmEntityContainer="DBAcunmedyaAkademiEntities2">
+    <EntitySetMapping Name="TBL_About">
+      <EntityTypeMapping TypeName="DBAcunmedyaAkademiModel.TBL_About">
+        <MappingFragment StoreEntitySet="TBL_About">
+          <ScalarProperty Name="AboutID" ColumnName="AboutID" />
+          <ScalarProperty Name="ImageURL" ColumnName="ImageURL" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="BirthDay" ColumnName="BirthDay" />
+          <ScalarProperty Name="WebSite" ColumnName="WebSite" />
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="City" ColumnName="City" />
+          <ScalarProperty Name="Age" ColumnName="Age" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Freelance" ColumnName="Freelance" />
+          <ScalarProperty Name="Description1" ColumnName="Description1" />
+          <ScalarProperty Name="Description2" ColumnName="Description2" />
+          <ScalarProperty Name="Degree" ColumnName="Degree" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_Category">
+      <EntityTypeMapping TypeName="DBAcunmedyaAkademiModel.TBL_Category">
+        <MappingFragment StoreEntitySet="TBL_Category">
+          <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+          <ScalarProperty Name="CategoryName" ColumnName="CategoryName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_Education">
+      <EntityTypeMapping TypeName="DBAcunmedyaAkademiModel.TBL_Education">
+        <MappingFragment StoreEntitySet="TBL_Education">
+          <ScalarProperty Name="EducationID" ColumnName="EducationID" />
+          <ScalarProperty Name="StartedYear" ColumnName="StartedYear" />
+          <ScalarProperty Name="EndYear" ColumnName="EndYear" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Section" ColumnName="Section" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_Job">
+      <EntityTypeMapping TypeName="DBAcunmedyaAkademiModel.TBL_Job">
+        <MappingFragment StoreEntitySet="TBL_Job">
+          <ScalarProperty Name="JobID" ColumnName="JobID" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="CompanyName" ColumnName="CompanyName" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_Message">
+      <EntityTypeMapping TypeName="DBAcunmedyaAkademiModel.TBL_Message">
+        <MappingFragment StoreEntitySet="TBL_Message">
+          <ScalarProperty Name="MessageID" ColumnName="MessageID" />
+          <ScalarProperty Name="NameSurname" ColumnName="NameSurname" />
+          <ScalarProperty Name="Mail" ColumnName="Mail" />
+          <ScalarProperty Name="Subject" ColumnName="Subject" />
+          <ScalarProperty Name="MessageContent" ColumnName="MessageContent" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_Project">
+      <EntityTypeMapping TypeName="DBAcunmedyaAkademiModel.TBL_Project">
+        <MappingFragment StoreEntitySet="TBL_Project">
+          <ScalarProperty Name="ProjectID" ColumnName="ProjectID" />
+          <ScalarProperty Name="ProjectName" ColumnName="ProjectName" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ProjectLink" ColumnName="ProjectLink" />
+          <ScalarProperty Name="Image1" ColumnName="Image1" />
+          <ScalarProperty Name="Image2" ColumnName="Image2" />
+          <ScalarProperty Name="Image3" ColumnName="Image3" />
+          <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_Services">
+      <EntityTypeMapping TypeName="DBAcunmedyaAkademiModel.TBL_Services">
+        <MappingFragment StoreEntitySet="TBL_Services">
+          <ScalarProperty Name="ServiceID" ColumnName="ServiceID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="IconURL" ColumnName="IconURL" />
+          <ScalarProperty Name="Descripiton2" ColumnName="Descripiton2" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_Skill">
+      <EntityTypeMapping TypeName="DBAcunmedyaAkademiModel.TBL_Skill">
+        <MappingFragment StoreEntitySet="TBL_Skill">
+          <ScalarProperty Name="SkillID" ColumnName="SkillID" />
+          <ScalarProperty Name="SkillName" ColumnName="SkillName" />
+          <ScalarProperty Name="Derece" ColumnName="Derece" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_Testimonial">
+      <EntityTypeMapping TypeName="DBAcunmedyaAkademiModel.TBL_Testimonial">
+        <MappingFragment StoreEntitySet="TBL_Testimonial">
+          <ScalarProperty Name="TestimonialID" ColumnName="TestimonialID" />
+          <ScalarProperty Name="Description1" ColumnName="Description1" />
+          <ScalarProperty Name="TestimonialName" ColumnName="TestimonialName" />
+          <ScalarProperty Name="Description2" ColumnName="Description2" />
+          <ScalarProperty Name="ImageURL" ColumnName="ImageURL" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_Slider">
+      <EntityTypeMapping TypeName="DBAcunmedyaAkademiModel.TBL_Slider">
+        <MappingFragment StoreEntitySet="TBL_Slider">
+          <ScalarProperty Name="ImageUrl" ColumnName="ImageUrl" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="NameSurname" ColumnName="NameSurname" />
+          <ScalarProperty Name="SliderID" ColumnName="SliderID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="TBL_Contact">
+      <EntityTypeMapping TypeName="DBAcunmedyaAkademiModel.TBL_Contact">
+        <MappingFragment StoreEntitySet="TBL_Contact">
+          <ScalarProperty Name="Phone" ColumnName="Phone" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Adress" ColumnName="Adress" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="ContactID" ColumnName="ContactID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

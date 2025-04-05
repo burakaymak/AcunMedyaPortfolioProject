@@ -1,0 +1,19 @@
+﻿@model AcunMedyaProje1.Models.TBL_Category
+@{
+    ViewBag.Title = "UpdateCategory";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<h2>Kategori Güncelleme Sayfası</h2>
+
+<form method="post">
+    @Html.HiddenFor(x => x.CategoryID)
+    <label>Kategori Adı : </label>
+    @Html.TextBoxFor(x => x.CategoryName)
+    <br />
+    <br />
+    <button class="btn btn-primary">Güncelle</button>
+
+
+
+</form>
