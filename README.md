@@ -1,8 +1,7 @@
-ASP.NET MVC Portfolyo Projesi
-
+# ASP.NET MVC Portfolyo Projesi
 Bu proje, Acunmedya Akademi tarafından staj eğitimi kapsamında ödev olarak hazırlanmıştır.
 
-🛠 Kullanılan Teknolojiler ve Yapılar
+# 🛠 Kullanılan Teknolojiler ve Yapılar
 
 💻 Backend:
 
@@ -18,10 +17,11 @@ Bu proje, Acunmedya Akademi tarafından staj eğitimi kapsamında ödev olarak h
 
 🅱️ Bootstrap – Responsive ve modern tasarım
 
-✨ Özellikler
+# ✨ Özellikler
 
 ✔ CRUD İşlemleri – Kayıt ekleme, güncelleme, silme ve listeleme
 
 ✔ LINQ Sorguları – Daha esnek ve optimize edilmiş veritabanı işlemleri
 
 ✔ DB First Yaklaşımı – Önceden oluşturulmuş SQL Server veritabanı üzerinden modelleme
+
