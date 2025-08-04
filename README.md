@@ -13,7 +13,7 @@ Bu proje, Acunmedya Akademi tarafından staj eğitimi kapsamında ödev olarak h
 
 🔍 LINQ – Dinamik sorgulama
 
-🎨 Frontend:
+🎨 Frontend 
 
 🅱️ Bootstrap – Responsive ve modern tasarım
 
